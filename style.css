@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 154, 211);
+  }
+  
+  #content {
+    text-align: center;
+  }
+  
+  #no-container {
+    display: inline-block;
+  }
+  
+  #no-btn, #yes-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(235, 220, 140);
+  }
+  
+  #text {
+    margin-top: 20px;
+  }
+
+  #checklist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date-ideas li {
+    display: flex;
+    align-items: center;
+}
+
+#date-ideas input[type="checkbox"] {
+    margin-left: 112px
+}
